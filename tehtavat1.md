@@ -111,7 +111,7 @@ missä komennon <code>git clone</code> parametrina on repositoriosi sivulla näk
 
 ![]({{ "/images/lh1-2.png" | absolute_url }})
 
-Nyt paikalliselle koneellesi syntynyt hakemisto <code>ohtu-2019-viikko1</code> (hakemiston nimi on sama kuin repositoriosi), joka on on githubissa olevan repositorion klooni.
+Nyt paikalliselle koneellesi syntynyt hakemisto <code>ohtu-2020-viikko1</code> (hakemiston nimi on sama kuin repositoriosi), joka on on githubissa olevan repositorion klooni.
 
 ### 3. Gitin alkeet [versionhallinta]
 
@@ -379,7 +379,7 @@ ja suorittamalla komento <code>gradle test jacocoTestReport</code>
 **HUOM** tehtävässä käytettävä _jacoco_-plugin edellyttää toimiakseen riittävän uuden gradlen version Voit tarkistaa käyttämäsi version komennolla _gradle -v_. Cubbli-Linuxien oletusarvoinen versio on 4.4.1. ja sitä käyttäessä (eli komennolla _gradle_) jacoco ei toimi:
 
 ```
-mluukkai@melkki:~/ohtu-2019-viikko1$ gradle test jacocoTestReport
+mluukkai@melkki:~/ohtu-2020-viikko1$ gradle test jacocoTestReport
 Starting a Gradle Daemon (subsequent builds will be faster)
 
 > Task :test
@@ -390,7 +390,7 @@ Exception in thread "main" java.lang.reflect.InvocationTargetException
 Komennolla _./gradlew_ on käytössä projektin lokaali versio 6.7.0. ja sillä projekti toimii.
 
 ```
-mluukkai@melkki:~/ohtu-2019-viikko1$ ./gradlew test jacocoTestReport
+mluukkai@melkki:~/ohtu-2020-viikko1$ ./gradlew test jacocoTestReport
 
 ...
 
@@ -598,7 +598,7 @@ Tee nyt jokin muutos koneellasi repositorioon ja yritä pushata koodi GitHubiin.
 <pre>
 To github.com:mluukkai/ohtu-viikko1-s2020.git
  ! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'git@github.com:mluukkai/ohtu-2019-viikko1.git'
+error: failed to push some refs to 'git@github.com:mluukkai/ohtu-2020-viikko1.git'
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
