@@ -175,7 +175,7 @@ Githubissa pitäisi näyttää suunilleen seuraavalta
 
 ### 5. Monta kloonia samasta repositoriosta [versionhallinta]
 
-Yleensä on tapana pitää GitHubissa olevaa repositorioa tiedostojen "keskitettynä" sijoituspaikkana ja liittää paikallisella koneella oleva repositorio GitHubissa olevan repositorion etärepositorioksi, kuten teimme tehtävässä 1. 
+Yleensä on tapana pitää GitHubissa olevaa repositorioa tiedostojen "keskitettynä" sijoituspaikkana ja liittää paikallisella koneella oleva repositorio GitHubissa olevan repositorion etärepositorioksi, kuten teimme tehtävässä 2. 
 
 Jos työskennellään useammalta koneelta, on githubissa olevasta repositoriosta monta kloonia ja kloonien tila on pidettävä ajantasalla.
 
@@ -189,7 +189,7 @@ Luodaan nyt harjoituksen vuoksi paikalliselle koneelle repositoriosta toinen klo
 * "pushaa" muutokset GitHubiin
 * varmista selaimella, että lisätyt tiedostot menevät GitHubiin
 
-**Mene nyt tehtävässä 1 tehtyyn GitHub-repositorion klooniin.**
+**Mene nyt tehtävässä 2 tehtyyn GitHub-repositorion klooniin.**
 
 * alkuperäinen paikallinen klooni ei ole enää ajantasalla, "pullaa" sinne muutokset komennolla <code>git pull</code>
 * varmista että molempien paikallisten repositorioiden sisältö on nyt sama
